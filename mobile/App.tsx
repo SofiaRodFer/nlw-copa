@@ -1,9 +1,9 @@
 import React from 'react'
-import { NativeBaseProvider, Center, StatusBar } from 'native-base';
+import { NativeBaseProvider, StatusBar } from 'native-base';
 
 import { AuthContextProvider } from './src/contexts/AuthContext';
 
-import { SignIn } from './src/screens/SignIn';
+import { Routes } from './src/routes';
 
 import { Loading } from './src/components/Loading';
 
@@ -25,8 +25,7 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-        <SignIn />
-        {/* { fontsLoaded ? <SignIn /> : <Loading /> } */}
+        { fontsLoaded ? <Routes /> : <Loading /> }
       </AuthContextProvider>
     </NativeBaseProvider>
   );
