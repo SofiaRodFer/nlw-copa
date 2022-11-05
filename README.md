@@ -7,8 +7,8 @@
 <br>
 
 <p align="center">
-  <img alt="Preview" src="PCcopa.png" width="75%">
-  <img alt="Preview" src="Mobilecopa.jpg" width="17.25%">
+  <img alt="Preview" src="PCcopa.png" width="74%">
+  <img alt="Preview" src="Mobilecopa.jpg" width="18%">
 </p>
 <p align="center">
   <img alt="Preview" src="Mobilecomp.png">
