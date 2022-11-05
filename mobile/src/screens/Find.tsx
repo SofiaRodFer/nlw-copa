@@ -32,11 +32,7 @@ export function Find() {
                 })
             }
 
-            const codeUpper = capitalize(code)
-
-            console.log(codeUpper)
-
-            await api.post('/pools/join', { code })
+            await api.post('/pools/join', { code: code.toUpperCase() })
 
             toast.show({
                 title: 'Você entrou no bolão com sucesso!',
